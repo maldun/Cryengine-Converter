@@ -111,3 +111,7 @@ foreach ($file in (get-childitem -recurse *.cga,*.cgf,*.chr,*.skin)) { cgf-conve
 Finally, the converter does support being run through the Windows Explorer, so you can just drag a `.cga` file or files onto `cgf-converter.exe` and it'll do a default conversion (to `.dae`).  This isn't ideal, but it is the quick and dirty way if you are morally opposed to using a prompt. :+1:
 
 Questions?  Feel free to contact me and I'll be happy to provide some additional help.
+
+**Linux Notes**: Cryengine-Converter/cgf-converter]$ dotnet build cgf-converter.csproj --runtime linux-x64
+files under bin/linux64...
+
